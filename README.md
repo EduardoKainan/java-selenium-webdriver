@@ -1,6 +1,7 @@
 #  :computer: Projeto de Testes Web Automatizado usando Selenium WebDriver, Java, JUnit e Cucumber #
 
-Este projeto é um exemplo de automação de testes web usando as tecnologias Selenium WebDriver, Java, JUnit e Cucumber. O objetivo é demonstrar como é possível automatizar testes de interface de usuário para uma aplicação web usando essas ferramentas.
+Este projeto é um exemplo de automação de testes web usando as tecnologias Selenium WebDriver, Java, JUnit e Cucumber. 
+O objetivo é demonstrar como é possível automatizar testes de interface de usuário para uma aplicação web usando essas ferramentas.
 
 #  :pushpin: Pré-requisitos #
 Antes de começar a executar os testes, certifique-se de ter instalado os seguintes softwares:
@@ -12,14 +13,14 @@ Eclipse IDE (ou outra IDE de sua preferência)
 # :package: Instalação #
 Para instalar o projeto em sua máquina, siga os seguintes passos:
 
-Clone o repositório para sua máquina: git clone https://github.com/seu-usuario/projeto-de-testes-web-automatizado.git
+Clone o repositório para sua máquina: git clone https://github.com/EduardoKainan/java-selenium-webdriver.git
 Importe o projeto em sua IDE
 Aguarde a importação das dependências do Maven
 
 #  :rocket: Executando os testes #
 Para executar os testes, siga os seguintes passos:
 
-Abra o arquivo TestRunner.java em src/test/java/runner e execute como JUnit Test
+Abra o arquivo TestRunner.java em src/test/java/RunnerCucumberTest e execute como JUnit Test
 Aguarde a execução dos testes
 Os testes serão executados em um navegador Chrome e você poderá acompanhar o progresso no console da IDE.
 
