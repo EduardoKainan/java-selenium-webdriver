@@ -20,10 +20,11 @@ public class MessageSteps extends RunCucumberTest {
 
     @Dado("^preencho todos os campos$")
     public void preencho_todos_os_campos()  {
-        messagePage.selecionaAssunto("Webmaster");
-        messagePage.preencheEmail("eduardo@qazando.com.br");
+        messagePage.preencherNome("Eduardo Kainan");
+        messagePage.preencherAssunto("Webmaster");
+        messagePage.preencheEmail("eduardo@qzando.com.br");
         messagePage.preencheMensagem("Minha mensagem");
-        messagePage.uploadFile("/Users/eduardo.finotti/IdeaProjects/qazando-curso-selenium/upload.png");
+        messagePage.uploadFile("C:\\Users\\Eduardo\\IdeaProjects\\qazando-selenium-java-main\\comandos git.PNG");
     }
 
     @Quando("^clico em enviar mensagem$")

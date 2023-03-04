@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         plugin = {},
         features = "src/test/resources/features",
-        tags = "@cadastro",
+        tags = "@enviar-mensagem-sucesso",
         glue = {"steps"}
 )
 public class RunCucumberTest {
